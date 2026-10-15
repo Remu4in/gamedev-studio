@@ -1,0 +1,7 @@
+{
+  "name": "unity-kit",
+  "version": "0.0.1",
+  "description": "Скиллы для Unity (каркас).",
+  "author": { "name": "Ruslan Davletov" },
+  "license": "MIT"
+}

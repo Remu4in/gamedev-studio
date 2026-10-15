@@ -1,0 +1,7 @@
+{
+  "name": "roblox-kit",
+  "version": "0.1.0",
+  "description": "Скиллы для Roblox / Luau и официального Studio MCP.",
+  "author": { "name": "Ruslan Davletov" },
+  "license": "MIT"
+}

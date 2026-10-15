@@ -1,0 +1,7 @@
+{
+  "name": "studio-core",
+  "version": "0.1.0",
+  "description": "Команда агентов и общие скиллы геймдева для любого движка.",
+  "author": { "name": "Ruslan Davletov" },
+  "license": "MIT"
+}

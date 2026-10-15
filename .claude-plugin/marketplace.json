@@ -1,0 +1,40 @@
+{
+  "name": "gamedev-studio",
+  "owner": {
+    "name": "Ruslan Davletov"
+  },
+  "metadata": {
+    "description": "Личная игровая студия на Claude Code: общие агенты геймдева и наборы под движки.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "studio-core",
+      "source": "./plugins/studio-core",
+      "description": "Команда агентов и общие скиллы геймдева для любого движка: дизайн, план, QA, AppSec, баланс, нарратив, релиз, аналитика, live-ops.",
+      "version": "0.1.0",
+      "category": "gamedev"
+    },
+    {
+      "name": "godot-kit",
+      "source": "./plugins/godot-kit",
+      "description": "Godot 4 / GDScript: практики, производительность, тесты без сторонних фреймворков, сеть, безопасность.",
+      "version": "0.1.0",
+      "category": "gamedev"
+    },
+    {
+      "name": "roblox-kit",
+      "source": "./plugins/roblox-kit",
+      "description": "Roblox / Luau: Studio MCP, безопасность, данные, NPC, GUI, физика, дизайн, монетизация, live-ops.",
+      "version": "0.1.0",
+      "category": "gamedev"
+    },
+    {
+      "name": "unity-kit",
+      "source": "./plugins/unity-kit",
+      "description": "Unity: каркас, наполняется при первом Unity-проекте.",
+      "version": "0.0.1",
+      "category": "gamedev"
+    }
+  ]
+}

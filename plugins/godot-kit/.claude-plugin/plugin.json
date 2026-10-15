@@ -1,0 +1,7 @@
+{
+  "name": "godot-kit",
+  "version": "0.1.0",
+  "description": "Скиллы для Godot 4 / GDScript.",
+  "author": { "name": "Ruslan Davletov" },
+  "license": "MIT"
+}
