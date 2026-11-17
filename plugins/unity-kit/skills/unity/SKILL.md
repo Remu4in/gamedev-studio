@@ -23,5 +23,8 @@ description: Практики Unity (C#) — структура проекта, 
 ## Тесты
 Unity Test Framework: EditMode (логика, данные) и PlayMode (сценарии); запуск из командной строки `-runTests -batchmode`.
 
+## 3D-ассеты
+Модели из Blender — `.fbx` через `blender-kit:blender-export` (engine `unity`): в Import Settings — Scale Factor 1, Convert Units и Bake Axis Conversion; `*_LOD0..n` собираются в LODGroup. Подгонка под стиль — `blender-kit:blender-assets`.
+
 ## MCP
 Для связки с Claude — MCP-сервер для Unity Editor; выбрать и проверить через `skill-vetting` при старте проекта (официальные варианты предпочтительнее).

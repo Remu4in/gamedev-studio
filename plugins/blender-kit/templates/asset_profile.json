@@ -1,0 +1,46 @@
+{
+  "_comment": "Профиль ассетов проекта для blender-kit. Копия живёт в docs/art/asset_profile.json проекта и согласуется со стайлгайдом (docs/art/style_guide.md). Значения ниже — пример для стилизованного low-poly.",
+  "style": "stylized-lowpoly",
+  "unit": "meter",
+  "pivot": "bottom_center",
+  "shading": "flat",
+  "bevel": 0.02,
+  "roughness": 0.8,
+  "recolor": "palette",
+  "palette": {
+    "wood": "#9a6b45",
+    "metal": "#6f7b85",
+    "stone": "#8c8a83",
+    "bark": "#5b3f2c",
+    "foliage": "#5e8c3a",
+    "crystal": "#5fc7d9",
+    "cloth": "#b5443b",
+    "accent": "#e3b341"
+  },
+  "palette_shades": [-0.35, 0.0, 0.25],
+  "palette_cell_px": 4,
+  "palette_warn_delta_e": 25.0,
+  "keep_original_uv": false,
+  "budgets": {
+    "prop_small": 300,
+    "prop": 1000,
+    "prop_large": 3000,
+    "environment_module": 1500,
+    "vegetation": 1500,
+    "hero_prop": 5000,
+    "character": 8000,
+    "boss": 15000
+  },
+  "default_category": "prop",
+  "max_materials": 2,
+  "max_texture_px": 1024,
+  "max_size_m": 200.0,
+  "require_watertight": false,
+  "merge_distance": 0.0001,
+  "naming": { "prefix": "" },
+  "engines": {
+    "godot": { "collision": "hull" },
+    "unity": { "lods": [0.5, 0.25], "collision": "none" },
+    "roblox": { "collision": "none" }
+  }
+}

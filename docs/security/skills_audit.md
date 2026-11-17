@@ -10,5 +10,7 @@
 | github.com/nonlooped/roblox-suite | c914ce65470a6eb1b28000b8c58d5543b48760ca | MIT | не используется | чисто |
 | github.com/stackfox-labs/luau-skills | 6550b6b4c36390b759b4a9ee04783a343c5883e2 | MIT | не используется | чисто (BOM) |
 | github.com/afrxo/roblox-agent-skills | ff50be7a8a000a24c0f85254e1747a0eb35d857f | MIT | не используется | чисто |
+| github.com/arjun988/blender-skills | 904f095d8f36a6e72adaebb08d07f884a074743d | MIT | Идеи для blender-kit: этапы конвейера, бюджеты, LOD/коллизии, проверки (переписано, исправлены Godot/Unity, добавлен Roblox) | чисто: 0 скрытых символов и инъекций; флаги — установщик uv (`irm \| iex`) и упоминания CLAUDE.md. Риск — `.mcp.json` с `uvx blender-mcp` без версии; ~половина скиллов — заглушки < 200 слов |
+| PyPI mcp-for-blender (ahujasid) | 2.3.0 (wheel) | MIT | MCP-сервер Blender, подключается в проекте с `==2.3.0` | проверены телеметрия, согласие, safe mode, список инструментов и сетевые адреса (не весь код аддона): телеметрия в Supabase выключается `DISABLE_TELEMETRY`; сбор промптов/кода/скриншотов — opt-in (выкл. по умолчанию); `BLENDER_MCP_SAFE_MODE=1` — AST-валидатор скриптов; в описаниях инструментов — реклама Premium (игнорировать). `blender-mcp` 2.0.0 — обёртка, тянет `mcp-for-blender>=2.0.0` без версии — не использовать |
 
-Отклонено: boshyxd/robloxstudio-mcp и форки (архив, автор потерял ключи npm — риск захвата пакета); ForgeGUI/ForgeUI (не нужен).
+Отклонено: blender-skills как плагин целиком (подтянул бы незакреплённый MCP). boshyxd/robloxstudio-mcp и форки (архив, автор потерял ключи npm — риск захвата пакета); ForgeGUI/ForgeUI (не нужен).

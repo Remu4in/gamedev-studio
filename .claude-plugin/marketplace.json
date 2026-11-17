@@ -35,6 +35,13 @@
       "description": "Unity: каркас, наполняется при первом Unity-проекте.",
       "version": "0.0.1",
       "category": "gamedev"
+    },
+    {
+      "name": "blender-kit",
+      "source": "./plugins/blender-kit",
+      "description": "Blender для ассетов любого движка: процедурные пропсы, AI image-to-3D, нормализация под палитру и бюджеты проекта, проверка, экспорт под Godot/Unity/Roblox. MCP подключается в проекте (mcp-for-blender, закреплённая версия, safe mode).",
+      "version": "0.1.0",
+      "category": "gamedev"
     }
   ]
 }
