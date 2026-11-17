@@ -34,5 +34,8 @@ description: Практики Godot 4 и GDScript — структура про�
 - После правок `.tscn`/ассетов — импорт `--headless --path . --import`.
 - Любой `SCRIPT ERROR` в выводе — исправить до продолжения.
 
+## 3D-ассеты
+Модели из Blender — `.glb` через `blender-kit:blender-export` (engine `godot`): коллизии суффиксом `-convcolonly`/`-colonly`, LOD генерирует импортёр. Подбор и подгонка ассетов под стиль — `blender-kit:blender-assets`.
+
 ## Аддоны
 Сторонние аддоны и GDExtension — только через `skill-vetting` (GDExtension = нативный код, высокий риск). Предпочитаем свой минимальный код.

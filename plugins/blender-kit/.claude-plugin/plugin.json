@@ -1,0 +1,9 @@
+{
+  "name": "blender-kit",
+  "version": "0.1.0",
+  "description": "Конвейер 3D-ассетов через Blender для Godot, Unity и Roblox: процедурные генераторы, AI image-to-3D, нормализация под стиль проекта, проверка, линейка стиля, экспорт.",
+  "author": {
+    "name": "Ruslan Davletov"
+  },
+  "license": "MIT"
+}

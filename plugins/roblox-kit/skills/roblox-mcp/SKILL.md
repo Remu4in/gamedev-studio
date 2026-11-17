@@ -32,6 +32,7 @@ description: Работа с официальным Roblox Studio MCP из Claud
 
 ## Ассеты из MCP
 - Генерация мешей и материалов — для простых и стилизованных объектов; героев и боссов — через `asset-pipeline`.
+- Модели из Blender (`blender-kit:blender-assets` → `blender-kit:blender-export`, engine `roblox`): `.glb` в метрах, в Import 3D — **Scale Unit = Meter**, не больше 20 000 треугольников на меш.
 - **`insert_asset` из Creator Store — только после проверки на скрипты** (`roblox-security`): удалить все `Script`/`LocalScript`/`ModuleScript`, если они не нужны.
 - Каждый вставленный или сгенерированный ассет — в `docs/assets_ledger.md`.
 
